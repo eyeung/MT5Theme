@@ -1,6 +1,4 @@
 /*YUI Css Reset*/
-
-
 html {
 	color: #000;
 	background: #FFF;
@@ -54,6 +52,55 @@ input, textarea, select {
 legend {
 	color: #000;
 }
-#yui3-css-stamp.cssreset {
-	display: none;
+/*Global*/
+body {
+	background: #e4e4e4 url(images/body-gradiant.png) repeat-x;
+	font-family: 'Helvetica Neue', Helvetica, Tahoma, Arial, Sans-serif, 'Microsoft Yahei';
+	font-size: 14px;
+}
+#wrap {
+	margin: 0 auto;
+	padding: 0 auto;/*background:url(images/content-back.gif) repeat-y;*/
+}
+/*Nav*/
+#nav {
+	margin: 0 auto;
+	width: 960px;
+	height: 1%;
+	height: 30px;
+	background: url(images/top-background.png) no-repeat;
+	font-size: 13px;
+}
+#nav li {
+	float: left;
+	background: url(images/nav-divider.gif) right center no-repeat;
+	height: 30px;
+	display:inline;
+}
+
+#nav a {
+	padding:8px 13px 0 12px;
+	text-decoration: none;
+	color: #696969;
+	height: 26px;
+	display:block;
+}
+#nav a:hover, #nav .current a {
+	color: #000;
+	font-weight:500;
+}
+#nav .current {
+	font-weight: 700;
+	background: url(images/current-page-marker.gif) center bottom no-repeat;
+	color: #000;
+}
+#nav .last {
+	background: none;
+}
+/*Header*/
+#header {
+	margin: 0 auto;
+	width: 960px;
+	height: 100px;
+	background: #000 /*url(images/content-back.gif) repeat-y*/;
 }
